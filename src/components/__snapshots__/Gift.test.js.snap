@@ -25,9 +25,12 @@ ShallowWrapper {
         <ForwardRef
           as="div"
         >
-          <UNDEFINED>
+          <ForwardRef
+            column={false}
+            srOnly={false}
+          >
             Person
-          </UNDEFINED>
+          </ForwardRef>
           <ForwardRef
             as="input"
             className="input-person"
@@ -46,9 +49,12 @@ ShallowWrapper {
         "children": <ForwardRef
           as="div"
         >
-          <UNDEFINED>
+          <ForwardRef
+            column={false}
+            srOnly={false}
+          >
             Person
-          </UNDEFINED>
+          </ForwardRef>
           <ForwardRef
             as="input"
             className="input-person"
@@ -65,9 +71,12 @@ ShallowWrapper {
         "props": Object {
           "as": "div",
           "children": Array [
-            <UNDEFINED>
+            <ForwardRef
+              column={false}
+              srOnly={false}
+            >
               Person
-            </UNDEFINED>,
+            </ForwardRef>,
             <ForwardRef
               as="input"
               className="input-person"
@@ -83,10 +92,20 @@ ShallowWrapper {
             "nodeType": "function",
             "props": Object {
               "children": "Person",
+              "column": false,
+              "srOnly": false,
             },
             "ref": null,
             "rendered": "Person",
-            "type": undefined,
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "defaultProps": Object {
+                "column": false,
+                "srOnly": false,
+              },
+              "displayName": "FormLabel",
+              "render": [Function],
+            },
           },
           Object {
             "instance": null,
@@ -237,9 +256,12 @@ ShallowWrapper {
           <ForwardRef
             as="div"
           >
-            <UNDEFINED>
+            <ForwardRef
+              column={false}
+              srOnly={false}
+            >
               Person
-            </UNDEFINED>
+            </ForwardRef>
             <ForwardRef
               as="input"
               className="input-person"
@@ -258,9 +280,12 @@ ShallowWrapper {
           "children": <ForwardRef
             as="div"
           >
-            <UNDEFINED>
+            <ForwardRef
+              column={false}
+              srOnly={false}
+            >
               Person
-            </UNDEFINED>
+            </ForwardRef>
             <ForwardRef
               as="input"
               className="input-person"
@@ -277,9 +302,12 @@ ShallowWrapper {
           "props": Object {
             "as": "div",
             "children": Array [
-              <UNDEFINED>
+              <ForwardRef
+                column={false}
+                srOnly={false}
+              >
                 Person
-              </UNDEFINED>,
+              </ForwardRef>,
               <ForwardRef
                 as="input"
                 className="input-person"
@@ -295,10 +323,20 @@ ShallowWrapper {
               "nodeType": "function",
               "props": Object {
                 "children": "Person",
+                "column": false,
+                "srOnly": false,
               },
               "ref": null,
               "rendered": "Person",
-              "type": undefined,
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "defaultProps": Object {
+                  "column": false,
+                  "srOnly": false,
+                },
+                "displayName": "FormLabel",
+                "render": [Function],
+              },
             },
             Object {
               "instance": null,

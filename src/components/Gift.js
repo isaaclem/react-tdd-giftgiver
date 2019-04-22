@@ -3,7 +3,7 @@ import {
   Form, 
   FormGroup, 
   FormControl, 
-  ControlLabel, 
+  FormLabel, 
   Button 
 } from 'react-bootstrap'
 
@@ -15,7 +15,7 @@ export default class Gift extends Component {
       <div>
         <Form>
           <FormGroup>
-            <ControlLabel>Person</ControlLabel>
+            <FormLabel>Person</FormLabel>
             <FormControl  
               className='input-person' 
               onChange={event => this.setState({ person: event.target.value })}
