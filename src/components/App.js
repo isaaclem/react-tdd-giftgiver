@@ -16,9 +16,7 @@ class App extends Component {
 
   addGift = () => {
     const { gifts } = this.state;
-
     const ids = gifts.map(gift => gift.id);
-
     gifts.push({ id: max_number(ids)+1 });
 
     this.setState({ gifts }); 
